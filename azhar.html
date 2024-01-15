@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-xr2l+KD/zP+u7jYfi+u9FpBOV2dzveP9fsGW2KaIEhvbbuQc/mNEOenNt6i/7J8cJOGLteg6ZOpIJPBYeN6Zqg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="app">
+                <div class="header">
+                    <h2>Awesome Quiz Application</h2>
+                    <div class="time">
+                        <span>Time Left:</span>
+                        <span class="time-left">15</span>
+                    </div>
+                </div>
+                <div class="time-line">
+                    <div class="inner-line"></div>
+                </div>
+                <div class="quiz-container">
+                    <div class="question">
+                        <h2>1.What does html stand for?</h2>
+                    </div>
+                    <ul class="answers">
+                        <li class="opt">Option 1</li>
+                        <li class="opt">Option 2</li>
+                        <li class="opt">Option 3</li>
+                        <li class="opt">Option 4</li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <p><span class="currentQue">1</span> out of <span class="total">55</span></p>
+                    <button class="next-btn">Next</button>
+                </div>
+                <div class="score-card">
+                    <img src="images/winner.gif" alt="">
+                    <h1>Congratulations! 🎉</h1>
+                    <h3>You got <span class="score">15</span> out of <span class="total-question">50</span></h3>
+                    <p>You aced it! You're a quiz whiz. Share your score and challenge your friends to beat it!</p>
+                    <button class="restart-btn">Restart</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/5ac6bf8fc0.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>
